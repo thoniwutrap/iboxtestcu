@@ -5,6 +5,28 @@
   <title>myapp</title>
 </head>
 <body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCdJ_Qe3PFoVuKpnV87OHXHT-062PUjpNo",
+    authDomain: "codelab-8f09f.firebaseapp.com",
+    databaseURL: "https://codelab-8f09f.firebaseio.com",
+    projectId: "codelab-8f09f",
+    storageBucket: "codelab-8f09f.appspot.com",
+    messagingSenderId: "232509430134",
+    appId: "1:232509430134:web:b620af1d7a99e9603cc257"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   <script src="main.dart.js" type="application/javascript"></script>
+
 </body>
 </html>
